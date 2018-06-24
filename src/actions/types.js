@@ -1,0 +1,13 @@
+export const AUTH_USER = 'auth_user';
+export const UNAUTH_USER = 'unauth_user';
+export const AUTH_ERROR = 'auth_error';
+export const FETCH_MESSAGE = 'fetch_message';
+export const FETCH_BOOK_RESULT_GOOGLE = 'fetch_book_result';
+export const ADD_BOOK_TO_LIST = 'add_book_to_list';
+export const FETCH_ALL_BOOKS = 'fetch_all_books';
+export const SUCCESSFUL_REQUEST = 'successful_request';
+export const USER_BOOK_SHELF = 'user_book_shelf';
+export const APPROVE_REQUEST  = 'approve_request';
+export const UPDATE_PROFILE = 'update_profile';
+export const GET_ADDRESS = 'get_address';
+export const RETURN_BOOK = 'return_book';

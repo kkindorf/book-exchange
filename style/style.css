@@ -1,0 +1,101 @@
+.error {
+    color: red;
+}
+
+/*** homepage styles ***/
+.all-books-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
+.headline-container {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.book-container {
+    margin: 20px;
+    position: relative;
+
+}
+.book-container a {
+    text-align: center;
+}
+.book-container p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.book-container button {
+    display: block;
+    margin-top: 10px;
+}
+
+
+/**** search books styles ***/
+.search-bar h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.panel-body {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #444;
+    padding: 20px;
+}
+.panel-body button {
+    display: block;
+    margin: 10px auto;
+}
+
+.panel-body .saved-book {
+    color: green;
+    font-weight: bold;
+}
+.result-container a {
+    display: block;
+    margin-bottom: 6px;
+}
+.result-container p {
+    font-weight: 600;
+    margin-bottom: 6px !important;
+}
+
+/*** profile styles ***/
+
+.profile-container h1 {
+    text-align: center;
+    
+}
+.profile-container h1, h2 {
+    margin-bottom: 20px;
+}
+.profile-container .btn-info {
+    margin: 25px auto;
+    display: block;
+}
+.book-shelf {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.display-none {
+    display: none;
+}
+
+
+@media(max-width: 800px) {
+    .panel-body {
+        width: 90%;
+    }
+}
